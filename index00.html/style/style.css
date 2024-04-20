@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-link */
+}
+/* ------NAVBAR------ */
+/* ------NAVBAR------ */
+/* ------NAVBAR------ */
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 31px 83px;
+    height: 60px;
+    background-color: #000;
+}
+.growlist{
+    flex-grow: 1;
+}
+img {
+    width: 92px;
+    height: 32px;
+}
+.line{
+    width: 1px;
+    height: 50px;
+    background-color: #fff;
+    margin-left: 63px;
+}
+.list{
+    display: flex;
+    align-items: center;
+    gap: 63px;
+    list-style: none;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 600;
+    margin-left: 64px;
+}
+.logo,
+.listitem{
+    cursor: pointer;
+}
+.smallbutton{
+    padding: 7px 28px;
+    border: none;
+    border-radius: 5px;
+    background: #ba0cc5;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+.smallbutton:hover{
+    background-color: #ffffff;
+    color: #ba0cc5;
+}
+/* ------------- */
+/* ----HERO----- */
+/* ------------- */
+/* ------------- */
+.hero{
+    background-image: url(./assets/bg.png);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 91.5vh;
+    text-align: center;
+}
+.hero-heading{
+    color:#ffffff ;
+    max-width: 846px;
+    text-align: center;
+    line-height: 72px;
+    font-size: 80px;
+    margin: 0 auto;
+    font-weight: 700;
+    font-style: normal;
+    padding-top: 172px;
+}
+.hero  p{
+    font-size: 30px;
+    font-weight: 500;
+    font-style: normal;
+    color: #ffffff;
+    line-height: 45px;
+}
+.largebutton{
+    background: #ba0cc5;
+    padding: 14px 22px;
+    color: #fff;
+    border: none;
+    font-size: 29px;
+    font-weight: 600;
+    line-height: 45px;
+    border-radius: 11px;
+    cursor: pointer;
+    margin-top: 64px;
+    font-style: normal;
+}
+.largebutton:hover{
+    color: #ba0cc5;
+    background-color: #fff;
+}
